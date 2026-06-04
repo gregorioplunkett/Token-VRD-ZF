@@ -58,7 +58,7 @@ const Dashboard = () => {
       <Header />
 
       {/* Main Content Container */}
-      <main className="flex-grow pt-28 pb-16 max-w-[1280px] mx-auto px-6 w-full">
+      <main className="grow pt-28 pb-16 max-w-7xl mx-auto px-6 w-full">
         {/* Top Header Row inside the layout */}
         <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-10">
           <div>
@@ -195,7 +195,7 @@ const Dashboard = () => {
           <div className="space-y-8">
             
             {/* Identity & Compliance Panel */}
-            <div className="glass-card p-8 rounded-3xl border border-outline-variant bg-gradient-to-br from-primary to-secondary text-primary">
+            <div className="glass-card p-8 rounded-3xl border border-outline-variant bg-linear-to-br from-primary to-secondary text-primary">
               <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
                 <ShieldCheck size={20} className="text-secondary-container" /> Cumplimiento On-chain
               </h3>

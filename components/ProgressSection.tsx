@@ -9,8 +9,16 @@ const ProgressSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-primary-container relative overflow-hidden">
-      <div className="absolute inset-0 grid-pattern opacity-10"></div>
+    <section 
+      className="py-24 relative overflow-hidden bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/obra-desktop2 .jpg')",
+        backgroundAttachment: "fixed",
+      }}
+    >
+      {/* Gradient overlay for better text visibility */}
+      <div className="absolute inset-0 bg-linear-to-br from-primary/40 via-primary/35 to-primary/40"></div>
+      <div className="absolute inset-0 grid-pattern opacity-5"></div>
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-20">
           <span className="text-secondary-container font-bold text-[12px] uppercase tracking-widest">Ejecución del Proyecto</span>
@@ -44,7 +52,7 @@ const ProgressSection = () => {
                 </div>
                 <div className="mt-4">
                   <h4 className="text-[12px] text-white font-bold uppercase tracking-wider">Entrega Final</h4>
-                  <p className="text-secondary-fixed text-[10px] font-bold mt-1">AGOSTO 2024</p>
+                  <p className="text-secondary-fixed text-[10px] font-bold mt-1">AGOSTO 2027</p>
                 </div>
               </div>
             </div>

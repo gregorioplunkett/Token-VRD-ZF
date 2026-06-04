@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant">
       <div className="max-w-7xl mx-auto h-20 px-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
+           <Link href="/" className="flex items-center gap-2">
+             <img src="/iconosinfondo.png" alt="VRD ZF Logo" className="w-10 h-10 md:w-12 md:h-12" />
+           </Link>
           <span className="text-[28px] leading-9 font-bold text-primary">VRD ZF</span>
           <span className="hidden md:inline px-1 py-0.5 bg-secondary-container text-on-secondary-container text-[12px] font-semibold rounded">INSTITUCIONAL</span>
         </div>

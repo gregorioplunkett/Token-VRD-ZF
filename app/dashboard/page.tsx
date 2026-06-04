@@ -218,9 +218,10 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              <button className="w-full mt-6 py-3 bg-white text-primary font-bold rounded-xl hover:bg-secondary-fixed transition-all shadow-lg flex items-center justify-center gap-2">
-                Aumentar Posición <ArrowUpRight size={18} />
-              </button>
+              <div className="mt-6 grid grid-cols-2 gap-3">
+                <button className="w-full py-3 bg-secondary text-white font-bold rounded-xl hover:opacity-95 transition">Compra</button>
+                <button className="w-full py-3 bg-white text-primary font-bold rounded-xl border border-outline-variant hover:bg-surface-container-high transition">Venta</button>
+              </div>
             </div>
 
             {/* Official Documents Panel (From Section 13.1) */}

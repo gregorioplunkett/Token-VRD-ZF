@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Hero = () => {
@@ -18,9 +19,9 @@ const Hero = () => {
             Acceda a rendimientos institucionales respaldados por activos físicos reales en la Zona Franca. VRD ZF transforma la propiedad de naves logísticas en activos digitales líquidos y seguros.
           </p>
           <div className="flex flex-wrap gap-6 pt-2">
-            <button className="px-20 py-6 bg-secondary text-white font-bold rounded-lg hover:scale-105 transition-transform shadow-lg shadow-secondary/20">
+            <Link href="/dashboard" className="px-20 py-6 bg-secondary text-white font-bold rounded-lg hover:scale-105 transition-transform shadow-lg shadow-secondary/20">
               Invertir Ahora
-            </button>
+            </Link>
           </div>
         </div>
         <div className="relative flex justify-center lg:justify-end">

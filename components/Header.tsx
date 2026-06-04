@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   const navItems = [
-    { label: 'Portfolio', active: true },
+    { label: 'Dashboard', active: true },
     { label: 'Assets', active: false },
     { label: 'Payments', active: false },
     { label: 'Documents', active: false },
@@ -26,7 +26,7 @@ const Header = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-12">
-          <a className="text-secondary font-bold border-b-2 border-secondary pb-1" href="#">Portfolio</a>
+          <a className="text-secondary font-bold border-b-2 border-secondary pb-1" href="/dashboard">Dashboard</a>
           <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Assets</a>
           <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Payments</a>
           <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Documents</a>

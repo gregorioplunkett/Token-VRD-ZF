@@ -1,7 +1,11 @@
 # VRD-ZF — Plataforma de Logística Tokenizada
 
 Este proyecto es una plataforma moderna para la tokenización de activos de infraestructura real (RWA) bajo la normativa sandbox de la CNV (Argentina). Diseñado con **Next.js**, **React** y **Tailwind CSS**, este prototipo sirve como portal interactivo para inversores interesados en el fideicomiso financiero de la nave logística en Puerto Galván, promovido por **ZONASUR**.
+
+Deploy de la página en Vercel: token-vrd-zf.vercel.app
+
 Este proyecto fue realizado para el Challenge Universitario 2026 de SmartPort Lab (https://smartportlab.puertobahiablanca.com/challengeuniversitario2026/) por el equipo PortPulse (Tiberio Cantarelli)
+
 Este portal es un prototipo interactivo (maqueta base) diseñado para simular visual y conceptualmente la experiencia del inversor del proyecto VRD-ZF. Aunque reproduce fielmente el diseño, los flujos del marketplace, el seguimiento de obra y la telemetría técnica detallada en el White Paper, es una versión demostrativa y estática que no cuenta con conexión real a redes de blockchain ni procesa transacciones financieras reales.
 
 ## 🚀 Características Clave

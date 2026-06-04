@@ -12,7 +12,7 @@ const ProgressSection = () => {
     <section 
       className="py-24 relative overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url('/obra-desktop2 .jpg')",
+        backgroundImage: "url('/obra-desktop2.jpg')",
         backgroundAttachment: "fixed",
       }}
     >

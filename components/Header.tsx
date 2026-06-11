@@ -30,10 +30,10 @@ const Header = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-12">
-          <a className="text-secondary font-bold border-b-2 border-secondary pb-1" href="/dashboard">Dashboard</a>
-          <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Assets</a>
-          <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Payments</a>
-          <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Documents</a>
+          <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="/dashboard">Dashboard</a>
+          <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="#">Documentos</a>
+          <a className="text-on-surface-variant font-medium hover:text-secondary transition-colors" href="/aboutus">Sobre el Proyecto</a>
+
         </nav>
 
         <div className="flex items-center gap-6">
@@ -48,7 +48,9 @@ const Header = () => {
             <span className={`w-6 h-0.5 bg-on-surface transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
           </button>
 
-          <button className="bg-primary text-on-primary px-6 py-2 rounded-lg font-semibold text-[12px] hover:bg-primary-container transition-all">INVERTIR AHORA</button>
+          <Link href='/dashboard' className="hidden md:inline-block">
+            <button className="bg-primary text-on-primary px-6 py-2 rounded-lg font-semibold text-[12px] hover:bg-primary-container transition-all">INVERTIR AHORA</button>
+          </Link>
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link';
 import React, { useState } from 'react';
 import Header from '../../components/Header';
 import { 
@@ -218,9 +218,10 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              <div className="mt-6 grid grid-cols-2 gap-3">
-                <button className="w-full py-3 bg-secondary text-white font-bold rounded-xl hover:opacity-95 transition">Compra</button>
-                <button className="w-full py-3 bg-white text-primary font-bold rounded-xl border border-outline-variant hover:bg-surface-container-high transition">Venta</button>
+              <div className="mt-6 grid grid-cols-1 gap-3">
+                <Link href='https://www.miactivo.com/' target="_blank" rel="noopener noreferrer">
+                  <button className="w-full py-3 bg-secondary text-white font-bold rounded-xl hover:opacity-95 transition">Compra y vende en MiActivo</button>
+                </Link>
               </div>
             </div>
 
